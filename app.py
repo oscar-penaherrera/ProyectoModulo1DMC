@@ -15,7 +15,7 @@ lista_numerica = list(range(valor_inicial,valor_final))
 st.write (lista_numerica)
 
 elif modulo == "Módulo Array":
-  st.write("Estas en el módulo de arreglos)
+  st.write("Estas en el módulo de arreglos")
 
 else:
-  st.write("Estas en el módulo de funciones)
+  st.write("Estas en el módulo de funciones")
