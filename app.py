@@ -9,10 +9,10 @@ modulo  =  st.sidebar.selectbox("Elija un módulo",["Módulo Listas","Módulo Ar
 
 if modulo ==  "Módulo Listas"
 
-valor_inicial = st.number_input("Ingrese valor inicial", value=0)
-valor_final = st.number_input("Ingrese valor final", value=1)
-lista_numerica = list(range(valor_inicial,valor_final))
-st.write (lista_numerica)
+  valor_inicial = st.number_input("Ingrese valor inicial", value=0)
+  valor_final = st.number_input("Ingrese valor final", value=1)
+  lista_numerica = list(range(valor_inicial,valor_final))
+  st.write (lista_numerica)
 
 elif modulo == "Módulo Array":
   st.write("Estas en el módulo de arreglos")
