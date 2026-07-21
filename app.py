@@ -1,4 +1,5 @@
 import streamlit as st
+import numpy as np
 st.title("Proyecto Modulo 01 Fundamentals")
 st.sidebar.title("Parámetros")
 
