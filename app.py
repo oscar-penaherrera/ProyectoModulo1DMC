@@ -2,7 +2,7 @@ import streamlit as st
 st.title("Proyecto Modulo 01 Fundamentals")
 st.sidebar.title("Parámetros")
 
-st.image ("Phyton_logo.png")
+st.image("Phyton_logo.png")
 
 valor_inicial = st.number_input("Ingrese valor inicial", value=0)
 valor_final = st.number_input("Ingrese valor final", value=1)
