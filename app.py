@@ -17,16 +17,16 @@ if modulo ==  "Módulo Listas":
 elif modulo == "Módulo Array":
   st.write("Estas en el módulo de arreglos")
   
-  limite_inferior = st.number_input("Ingrese limite inferior", value=1200)
-  limite_superior = st.number_input("Ingrese limite superior", value=1250)
-  cantidad_datos = st.number_input("Ingrese totalidad de datos a crear",value=31)
+  limite_inferior = st.number_input("Ingrese el limite inferior", value=1200)
+  limite_superior = st.number_input("Ingrese el limite superior", value=1250)
+  cantidad_datos = st.number_input("Ingrese totalidad de datos a crear", value=31)
   
   datos_produccion = np.random.randint(limite_inferior, limite_superior, cantidad_datos)
 
   st.write (datos_produccion)
 
-  st.write("La producción total es:", np.sum(datos_produccion))
-  st.write("La producción promedio es:", np.mean(datos_produccion))
+  st.write("La producción total es:" np.sum(datos_produccion))
+  st.write("La producción promedio es:" np.mean(datos_produccion))
   
 else:
   st.write("Estas en el módulo de funciones")
